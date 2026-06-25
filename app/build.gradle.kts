@@ -27,7 +27,7 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose); implementation(libs.coil.compose)
     implementation(libs.hilt.android); ksp(libs.hilt.compiler)
     implementation(libs.androidx.room.runtime); implementation(libs.androidx.room.ktx); ksp(libs.androidx.room.compiler)
-    implementation(libs.androidx.work.runtime.ktx); implementation(libs.androidx.hilt.work); ksp(libs.hilt.compiler)
+    implementation(libs.androidx.work.runtime.ktx); implementation(libs.androidx.hilt.work); ksp(libs.androidx.hilt.compiler)
     implementation(libs.mlkit.face.detection); implementation(libs.tensorflow.lite); implementation(libs.kotlinx.coroutines.play.services)
     testImplementation(libs.junit); androidTestImplementation(platform(libs.androidx.compose.bom)); androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     androidTestImplementation(libs.androidx.espresso.core); androidTestImplementation(libs.androidx.junit)
